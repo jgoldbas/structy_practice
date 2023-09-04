@@ -26,7 +26,7 @@ time.
 """
 def uncompress2(s):
     res = []
-    i, j = 0,0
+    i, j = 0, 0
     num_str = '0123456789'
 
     # Main loop iterates while j is a valid index
@@ -46,7 +46,7 @@ def uncompress2(s):
 
 def uncompress1(s):
     res = ""
-    i, j = 0,0
+    i, j = 0, 0
     num_str = '0123456789'
 
     # Main loop iterates while j is a valid index
