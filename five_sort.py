@@ -1,6 +1,6 @@
 """
-Same problem as Leetcode's Move Zeroes variation: https://leetcode.com/problems/move-zeroes/
-The difference between Leetcode's and Structy's is Leetcode requires
+Similar problem to Leetcode's Move Zeroes variation: https://leetcode.com/problems/move-zeroes/
+The main difference between Leetcode's and Structy's is Leetcode requires
 elements that are not 0s to remain in their original order.
 
 Write a function, five_sort, that takes in a list of numbers as an argument.
