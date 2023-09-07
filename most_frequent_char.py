@@ -47,4 +47,4 @@ def most_frequent_char2(s):
     return most_frequent
 
 print("The most frequent letter in 'potato' is {}".format(most_frequent_char("potato")))
-print(most_frequent_char2("mississippi")) # should be i
+print(most_frequent_char2("mississippi")) # should be 'i'
