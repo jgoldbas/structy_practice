@@ -22,9 +22,11 @@ Space: ~O(n+m) because we have to store the character-count objects
 """
 from collections import Counter # For anagrams2 function
 
+
 # Solution 1
 def anagrams(s1, s2):
     return char_count(s1) == char_count(s2)
+
 
 def char_count(s):
     count = {}
@@ -36,9 +38,11 @@ def char_count(s):
 
     return count
 
+
 # Solution 2 using Python built in method, Counter
 def anagrams2(s1, s2):
     return Counter(s1) == Counter(s2)
+
 
 # Solution 3 (older)
 def anagrams3(s, t):
@@ -54,6 +58,7 @@ def anagrams3(s, t):
         dict_t[el] = dict_t.get(el, 0) + 1
 
     return dict_s == dict_t
+
 
 print(char_count('catss'))
 print(anagrams('restful', 'fluster'))

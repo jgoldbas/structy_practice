@@ -40,7 +40,7 @@ def linked_list_find1(head, target):
     return False
 
 
-# Solution 3 (recursive)
+# Solution 2 (recursive)
 def linked_list_find2(head, target):
     if head is None:
         return False
