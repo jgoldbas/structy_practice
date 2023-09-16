@@ -32,7 +32,7 @@ c.next = d
 # Solution 1 (iterative)
 def linked_list_find1(head, target):
     curr = head
-    while curr is not None:
+    while curr:
         if curr.val != target:
             curr = curr.next
         else:
