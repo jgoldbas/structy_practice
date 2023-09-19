@@ -41,12 +41,13 @@ for count, ele in enumerate(l1):
     print(count)
     print(ele)
 
+
 # Solution 1: Brute force
 def pair_sum1(nums, target):
     for i in range(0, len(nums)):
         for j in range(i+1, len(nums)):
             if nums[i] + nums[j] == target:
-                return (i,j)
+                return i, j
 
 
 # Solution 2: Optimized w/ dictionary (hash map)
@@ -58,6 +59,7 @@ def pair_sum2(nums, target):
             return prev_dict[complement], index
         else: # if not, add this number and its corresponding index to the dict
             prev_dict[num] = index
+
 
 # Solution 3: Leetcode solution to the Two Sum problem (returns a list)
 def two_sum(nums, target):
